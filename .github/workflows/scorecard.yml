@@ -57,7 +57,7 @@ jobs:
       # 再留一份原始文件：code scanning 面板只展示摘要，
       # 排查评分波动时要看完整 SARIF（例如某检查项的详细 reason）。
       - name: Upload SARIF as artifact
-        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: scorecard-results
           path: results.sarif
