@@ -75,7 +75,7 @@ LNA/
 - 仓库为 **Apache-2.0**，**禁止引入 GPL / AGPL 依赖**（传染红线）；第三方库先核实许可再采用。
 - 每个源文件 / 文档顶部必须有：
 
-  ```
+  ```text
   SPDX-FileCopyrightText: 2026 HanYang06
   SPDX-License-Identifier: Apache-2.0
   ```

@@ -1,4 +1,5 @@
 # LNA
+
 > Latent Nexus Architecture
 
 **架构型工程：不是单体大模型，而是一套由 N 个独立小型专家模型组成的联合网络。**

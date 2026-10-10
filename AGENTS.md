@@ -13,6 +13,7 @@
 Python 3.14（`.python-version`；声明 `>=3.11,<3.15`），`uv` 管理。当前**构想 / 设计阶段，尚无实现**。
 
 **权威顺序 `路线图 > 设计 > 代码`**：
+
 - 要什么 → [docs/roadmap/1.x.md](docs/roadmap/1.x.md)（格式见 [docs/roadmap/index.md](docs/roadmap/index.md)）
 - 是什么 / 为什么 → [docs/architecture/index.md](docs/architecture/index.md)（索引与权威顺序）+ [design.md](docs/architecture/design.md)
 - 怎么写 → [docs/guides/conventions.md](docs/guides/conventions.md)
