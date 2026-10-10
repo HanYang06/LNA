@@ -1,0 +1,26 @@
+# SPDX-FileCopyrightText: 2026 HanYang06
+# SPDX-License-Identifier: Apache-2.0
+#
+# hydra 根配置。语言参数（设计篇 §3）先给起步值、实测好用再固化——
+# 能当超参的都当超参。
+defaults:
+  - _self_
+
+seed: 0
+
+# 内部语言参数
+language:
+  id_bits: 32       # ID 位宽（固定宽度、精确寻址）
+  dim: 128          # 向量维度 D
+  dtype: float32    # 向量精度
+  init: random      # 初始化：随机（固定 seed 保可复现）
+  v_max: 1024       # 词表上限（组合优于增量 → 数字不能多）
+  l_max: 64         # 词序列长度上限（实际变长，门控保证不顶格）
+
+# 模型（角色无关）
+model:
+  attention:
+    enabled: true   # 上注意力（已定）
+    n_heads: 4
+    d_head: 32      # = dim / n_heads
+    causal: null    # 待定
