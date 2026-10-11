@@ -10,7 +10,8 @@
 
 **LNA**（Latent Nexus Architecture）：**架构型工程**——不是单体大模型，而是由 **N 个独立小专家模型**
 组成的联合网络。要探索的是模型之间那门**私有的、通用的语言**（见[术语表](docs/reference/glossary.md)）。
-Python 3.14（`.python-version`；声明 `>=3.11,<3.15`），`uv` 管理。当前**构想 / 设计阶段，尚无实现**。
+Python 3.14（`.python-version`；声明 `>=3.11,<3.15`），`uv` 管理。当前**构想 / 设计阶段**，
+仅有词表雏形（`src/lna/models/lexicon/`）。
 
 **权威顺序 `路线图 > 设计 > 代码`**：
 
